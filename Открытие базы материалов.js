@@ -1,0 +1,1 @@
+﻿Action.Control.Owner.Owner.Owner.FindComponent("FormMain").FindComponent("aMtBase").Execute("Click");
