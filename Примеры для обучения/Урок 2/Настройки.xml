@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Схема изделия">
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item Name="Ширина">
+      <Value>800</Value>
+    </Item>
+    <Item Name="Глубина">
+      <Value>500</Value>
+    </Item>
+    <Item Name="Высота">
+      <Value>1000</Value>
+    </Item>
+    <Item Name="Размер до дна">
+      <Value>200</Value>
+    </Item>
+    <Item Name="Размер фаски"/>
+    <Item Name="Корпус">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Материал корпуса">
+          <Value>
+            <Name>ЛДСП-16 Коимбра светлая</Name>
+            <Thickness>16</Thickness>
+            <Width>-1</Width>
+          </Value>
+        </Item>
+        <Item Name="Видимая облицовка">
+          <Value>
+            <Name>Egger Кромка ABS/PVC 2*19 Кашемир серый U702 ST9</Name>
+            <Thickness>2</Thickness>
+            <Width>19</Width>
+            <Tape>Y</Tape>
+            <Sign>Кашемир серый 2/19</Sign>
+            <Clip>1</Clip>
+            <Allowance>.5</Allowance>
+          </Value>
+        </Item>
+        <Item Name="Невидимая облицовка">
+          <Value>
+            <Name>Egger Кромка ABS/PVC 2*19 Кашемир серый U702 ST9</Name>
+            <Thickness>2</Thickness>
+            <Width>19</Width>
+            <Tape>Y</Tape>
+            <Sign>Кашемир серый 2/19</Sign>
+            <Clip>1</Clip>
+            <Allowance>.5</Allowance>
+          </Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Задняя стенка">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Материал">
+          <Value>
+            <Name>ЛДСП-16 Коимбра светлая</Name>
+            <Thickness>16</Thickness>
+            <Width>-1</Width>
+          </Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Дверь">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Материал">
+          <Value>
+            <Name>ЛМДФ 22мм Белый 1-ст. FR</Name>
+            <Thickness>22</Thickness>
+            <Width>-1</Width>
+          </Value>
+        </Item>
+        <Item Name="Облицовка"/>
+        <Item Name="Петля">
+          <Value/>
+        </Item>
+        <Item Name="Профиль фрезы">
+          <Value>C:\Users\Сергей\Documents\Bazis\Scripts\Scripts\Примеры для обучения\Урок 2\Фреза2.frw</Value>
+        </Item>
+        <Item Name="Тип филенки">
+          <Value>Тип2</Value>
+          <ItemIndex>1</ItemIndex>
+        </Item>
+        <Item Name="Отступ филенки от края">
+          <Value>50</Value>
+        </Item>
+        <Item Name="Радиус сопряжений"/>
+      </Items>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>

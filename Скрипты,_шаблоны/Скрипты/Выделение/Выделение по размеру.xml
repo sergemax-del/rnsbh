@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Длина">
+      <Visible>N</Visible>
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Минимум">
+          <Value>100</Value>
+        </Item>
+        <Item Name="Максимум">
+          <Value>2000</Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Ширина">
+      <Visible>N</Visible>
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Минимум"/>
+        <Item Name="Максимум">
+          <Value>300</Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Размер">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Минимум"/>
+        <Item Name="Максимум">
+          <Value>1000</Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Текстура задана"/>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>

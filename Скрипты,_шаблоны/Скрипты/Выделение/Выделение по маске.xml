@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Выделено панелей"/>
+    <Item Name="Условие выделения">
+      <Value>ИЛИ (||)</Value>
+      <ItemIndex>1</ItemIndex>
+    </Item>
+    <Item Name="Панель">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Имя материала"/>
+        <Item Name="Артикул материала"/>
+        <Item Name="Имена панелей"/>
+        <Item Name="Имя панели содержит"/>
+        <Item Name="Позиции панелей"/>
+        <Item Name="Обозначение панелей"/>
+        <Item Name="Толщина панели"/>
+        <Item Name="Пластик на панели"/>
+        <Item Name="Пользовательские свойства"/>
+      </Items>
+    </Item>
+    <Item Name="Кромка">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Материал кромки"/>
+        <Item Name="Тип кромки"/>
+        <Item Name="Толщина кромки"/>
+        <Item Name="Прифуговка кромки"/>
+      </Items>
+    </Item>
+    <Item Name="Фурнитура">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Наименование"/>
+        <Item Name="Отверстия"/>
+      </Items>
+    </Item>
+    <Item Name="Тип пазов">
+      <ItemIndex>1</ItemIndex>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item/>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>
