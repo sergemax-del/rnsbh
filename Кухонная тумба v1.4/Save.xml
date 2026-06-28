@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Корпус">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Лево">
+          <Visible>N</Visible>
+        </Item>
+        <Item Name="Низ">
+          <Visible>N</Visible>
+        </Item>
+        <Item Name="Ширина">
+          <Value>500</Value>
+        </Item>
+        <Item Name="Высота">
+          <Value>800</Value>
+        </Item>
+        <Item Name="Глубина">
+          <Value>550</Value>
+        </Item>
+        <Item Name="ДСП корпуса">
+          <Value>
+            <Name>ЛДСП, 16 мм, Кашемир серый, U702 ST9, EggerEgr 16 U702 ST9</Name>
+            <Thickness>16</Thickness>
+            <Width>-1</Width>
+          </Value>
+        </Item>
+        <Item Name="Кромка корпуса">
+          <Value>
+            <Name>Кромка 0,4/19</Name>
+            <Thickness>.5</Thickness>
+            <Width>-1</Width>
+            <Tape>Y</Tape>
+            <Sign>0,4/19</Sign>
+            <Clip>1</Clip>
+            <Allowance>.5</Allowance>
+          </Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Вставная полка">
+      <Items>
+        <Item Name="Количество">
+          <Value>1</Value>
+        </Item>
+        <Item Name="Отступ с боков">
+          <Value>1</Value>
+        </Item>
+        <Item Name="Заглубление">
+          <Value>10</Value>
+        </Item>
+      </Items>
+      <Value>Y</Value>
+    </Item>
+    <Item Name="Двери">
+      <Items>
+        <Item Name="Материал">
+          <Value>
+            <Name>ЛДСП, 16 мм, Кашемир серый, U702 ST9, EggerEgr 16 U702 ST9</Name>
+            <Thickness>16</Thickness>
+            <Width>-1</Width>
+          </Value>
+        </Item>
+        <Item Name="Кромка">
+          <Value>
+            <Name>Egger Кромка ABS/PVC 0,4*19 / 22 Алебастр белый U104 ST9U104 ST9</Name>
+            <Thickness>.4</Thickness>
+            <Width>19</Width>
+            <Tape>Y</Tape>
+            <Sign>0,4/19</Sign>
+            <Clip>1</Clip>
+            <Allowance>.5</Allowance>
+          </Value>
+        </Item>
+        <Item Name="Кол-во дверей">
+          <Enabled>N</Enabled>
+          <Value>1</Value>
+        </Item>
+        <Item Name="Петли">
+          <Value>Слева</Value>
+        </Item>
+      </Items>
+      <Value>Y</Value>
+    </Item>
+    <Item Name="Столешница">
+      <ChildrenEnabled>N</ChildrenEnabled>
+      <Items>
+        <Item Name="Материал">
+          <Value>
+            <Name>ЛДСП, 16 мм, Кашемир серый, U702 ST9, EggerEgr 16 U702 ST9</Name>
+            <Thickness>16</Thickness>
+            <Width>-1</Width>
+          </Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Фурнитура">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Ручка">
+          <Value/>
+        </Item>
+        <Item Name="Угол поворота ручки">
+          <Value>90</Value>
+          <ItemIndex>1</ItemIndex>
+        </Item>
+        <Item Name="Опора">
+          <Value>
+            <Name>Опора цокольная регулируемая черная Н=100 мм</Name>
+            <File>Построение\Фурнитура\Опоры\Опора цокольная регулируемая черная Н=100 мм.f3d</File>
+          </Value>
+        </Item>
+        <Item Name="Петля">
+          <Value>
+            <Name>Петля для накладной двери</Name>
+            <Param Class="4">
+              <Name>Петля для накладной двери7</Name>
+              <Color>$000000FF</Color>
+              <Path>Петли</Path>
+              <D>35</D>
+              <H>12.5</H>
+              <Y>22</Y>
+              <D1>3</D1>
+              <H1>1</H1>
+              <Y1>9.5</Y1>
+              <A1>45</A1>
+              <D2>3</D2>
+              <H2>1</H2>
+              <A2>32</A2>
+              <X2>37</X2>
+            </Param>
+            <File>Петли\Петля для накладной двери</File>
+          </Value>
+        </Item>
+        <Item Name="Навеска Левая">
+          <Enabled>N</Enabled>
+          <Value/>
+        </Item>
+        <Item Name="Навеска Правая">
+          <Enabled>N</Enabled>
+          <Value/>
+        </Item>
+        <Item Name="Евровинт">
+          <Value>
+            <Name>Евровинт 6х50</Name>
+            <Param Class="1">
+              <Name>Евровинт 6х50</Name>
+              <Color>$000000FF</Color>
+              <Path>Евровинты</Path>
+              <d1>7</d1>
+              <d2>5</d2>
+              <h>51</h>
+            </Param>
+            <File>Евровинты\Евровинт 6х50</File>
+          </Value>
+        </Item>
+        <Item Name="Полкодержатель">
+          <Value>
+            <Name>Flipper полкодержатель+шток</Name>
+            <Param Class="2">
+              <Name>Flipper полкодержатель+шток</Name>
+              <Path>Стяжки</Path>
+              <Y>8</Y>
+              <D1>5</D1>
+              <H1>13</H1>
+              <D2>15</D2>
+              <H2>11.5</H2>
+              <x2>6.5</x2>
+            </Param>
+            <File>Стяжки\Flipper полкодержатель+шток</File>
+          </Value>
+        </Item>
+        <Item Name="Шкант">
+          <Value/>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>
